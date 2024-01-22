@@ -1,0 +1,10 @@
+site_name: Code Notes
+
+nav:
+ 
+    - Advanced Questions: index.md
+    - Basic_Questions: Basic_Questions.md
+    - Advanced_Part2 : Advanced_Part2.md
+    - Core_features: Core_features.md
+
+theme: readthedocs
