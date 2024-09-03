@@ -27,7 +27,12 @@ Examples: math_utils.py
 ## 1.9 Tuples
 ## 1.10 Sets
 
+<<<<<<< HEAD
+Testing
+
+=======
 testing
+>>>>>>> 6171ba9bd71bf0d433c63e5c51e364c20cf00639
 Sets: Useful when you want to represent a collection of unique items, perform set operations (union, intersection, etc.), or check membership efficiently.
 
 Tuples: Useful when you want an ordered collection of elements that should remain constant throughout the program, like representing coordinates (x, y) or returning multiple values from a function
