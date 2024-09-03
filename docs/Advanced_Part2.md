@@ -1,5 +1,9 @@
 #Code Notes
  
+
+
+
+
 ## Caching Crafter:  
   Design a custom caching mechanism for frequently accessed data, considering invalidation strategies and eviction policies.
 
@@ -84,5 +88,25 @@ if __name__ == "__main__":
     p.join()
     c.join()
 
+
+```
+
+Function Decorators
+```
+import functools
+
+def log_function_call(func):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        print(f"Calling {func.__name__} with arguments {args} and keyword arguments {kwargs}")
+        result = func(*args, **kwargs)
+        print(f"{func.__name__} returned {result}")
+        return result
+    return wrapper
+
+@log_function_call
+def add(a, b):
+    return a + b
+add(3, 5)
 
 ```
